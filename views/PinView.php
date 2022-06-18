@@ -1,6 +1,6 @@
 <?php
 
-require_once('../controllers/PinController.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/HICOMS/controllers/PinController.php');
 
 
     $new = new PinController;
