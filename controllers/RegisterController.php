@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-require_once($_SERVER['DOCUMENT_ROOT'] . '/HICOMS/models//UserModel.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/HICOMS/models//UserModel.php');
 
 class RegisterController extends UserModel {
     private $name;

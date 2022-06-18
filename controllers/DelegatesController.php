@@ -1,6 +1,6 @@
 <?php
 
-require_once($_SERVER['DOCUMENT_ROOT'] . '/HICOMS/models/UserModel.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/HICOMS/models/UserModel.php');
 
 class DelegatesController extends UserModel {
 

@@ -2,7 +2,7 @@
 
 session_start();
 
-require_once($_SERVER['DOCUMENT_ROOT'] . '/HICOMS/models/PinModel.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/HICOMS/models/PinModel.php');
 
 class PinController extends PinModel {
 

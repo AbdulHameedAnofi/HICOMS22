@@ -32,7 +32,7 @@
         </form>
         <?php
 
-        include 'controllers/AdminController.php';
+        include_once ('controllers/AdminController.php');
 
         if (isset($_POST['submit'])) {
             $admin = new AdminController;
