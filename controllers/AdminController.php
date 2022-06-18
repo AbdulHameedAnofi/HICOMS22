@@ -1,6 +1,6 @@
 <?php
 
-include_once($_SERVER['DOCUMENT_ROOT'] . '/HICOMS/models/AdminModel.php');
+include_once(__DIR__ . '/../models/AdminModel.php');
 
 
 

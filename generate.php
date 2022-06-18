@@ -23,7 +23,7 @@
 
     <?php
 
-include_once('controllers/PinController.php');
+include_once(__DIR__ . '/controllers/PinController.php');
 
         if (isset($_POST['submit'])) {
             $generatePin = new PinController;

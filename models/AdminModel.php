@@ -1,6 +1,6 @@
 <?php
 
-include_once($_SERVER['DOCUMENT_ROOT'] . '/HICOMS/Connection.php');
+include_once(__DIR__ . '/../Connection.php');
 session_start();
 
 class AdminModel {

@@ -1,6 +1,6 @@
 <?php
 
-include_once($_SERVER['DOCUMENT_ROOT'] . '/HICOMS/controllers/PinController.php');
+include_once(__DIR__ . '/../controllers/PinController.php');
 
     $generatePin = new PinController;
     $generatePin->generatePin($_POST['generate']);

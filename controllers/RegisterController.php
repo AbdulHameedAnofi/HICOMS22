@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-include_once($_SERVER['DOCUMENT_ROOT'] . '/HICOMS/models//UserModel.php');
+include_once(__DIR__ . '/../models//UserModel.php');
 
 class RegisterController extends UserModel {
     private $name;
