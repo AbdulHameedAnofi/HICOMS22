@@ -15,7 +15,6 @@ session_start()
         <div class="logo">
             HICOMS
         </div>
-        <a href="admin.php">Admin</a>
     </header>
 
     <form class="form" action="views/PinView.php" method="post">

@@ -21,7 +21,7 @@
             $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 
             if (strpos($url, 'admin=invalid') == true) {
-                echo "<p class='error'>Please input admin details correctly</p>";
+                echo "<p class='error'>Please input valid admin details</p>";
             }
 
             ?>
